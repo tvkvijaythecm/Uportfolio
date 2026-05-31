@@ -49,12 +49,12 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
     const CENTER_Y = window.innerHeight / 2;
 
     const letterDefs = [
-      { char: "Y", group: "first" },
-      { char: "a", group: "first" },
-      { char: "n", group: "first" },
-      { char: "L", group: "second" },
-      { char: "i", group: "second" },
-      { char: "u", group: "second" },
+      { char: "S", group: "first" },
+      { char: "U", group: "first" },
+      { char: "R", group: "first" },
+      { char: "E", group: "second" },
+      { char: "S", group: "second" },
+      { char: "H", group: "second" },
     ];
 
     // Inner wrapper for letters — shake applies here, not the background
