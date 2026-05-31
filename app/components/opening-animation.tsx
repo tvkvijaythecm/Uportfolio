@@ -90,7 +90,7 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
 
     const yanGaps = [0, 4];
     const liuGaps = [0, 4];
-    const wordGap = 36;
+    const wordGap = 16;
     const widths = els.map(o => o.el.offsetWidth);
 
     const yanWidth = widths[0] + yanGaps[0] + widths[1] + yanGaps[1] + widths[2];
