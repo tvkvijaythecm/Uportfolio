@@ -50,10 +50,10 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
 
     const letterDefs = [
       { char: "S", group: "first" },
-      { char: "U", group: "first" },
+      { char: "U", group: "second" },
       { char: "R", group: "first" },
       { char: "E", group: "second" },
-      { char: "S", group: "second" },
+      { char: "S", group: "first" },
       { char: "H", group: "second" },
     ];
 
