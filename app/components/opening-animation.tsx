@@ -67,7 +67,7 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
     // Create dot for "i"
     const iDot = document.createElement("div");
     Object.assign(iDot.style, {
-      position: "absolute", width: "22px", height: "22px",
+      position: "absolute", width: "0px", height: "0px",
       borderRadius: "50%", background: "#FFFFFF", boxShadow: "0 0 12px 4px rgba(255,255,255,0.4)", opacity: "0", willChange: "transform, opacity",
     });
     lettersWrapper.appendChild(iDot);
