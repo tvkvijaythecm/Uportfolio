@@ -68,7 +68,7 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
     const iDot = document.createElement("div");
     Object.assign(iDot.style, {
       position: "absolute", width: "0px", height: "0px",
-      borderRadius: "50%", background: "#FFFFFF", boxShadow: "0 0 12px 4px rgba(255,255,255,0.4)", opacity: "0", willChange: "transform, opacity",
+      borderRadius: "50%", background: "#FFFFFF", boxShadow: "0 0 0px 0px rgba(255,255,255,0)", opacity: "0", willChange: "transform, opacity",
     });
     lettersWrapper.appendChild(iDot);
 
@@ -88,7 +88,7 @@ export function OpeningAnimation({ onComplete }: { onComplete: () => void }) {
     // Measure and compute final positions
     els.forEach(o => { o.el.style.opacity = "0.01"; });
 
-    const yanGaps = [-6, 4];
+    const yanGaps = [0, 4];
     const liuGaps = [0, 4];
     const wordGap = 36;
     const widths = els.map(o => o.el.offsetWidth);
